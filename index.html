@@ -15,34 +15,51 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-dark bg-black navbar-expand-lg">
-        <div class="container">
+    <nav class="navbar navbar-dark bg-black navbar-expand-xl fixed-top">
+        <div class="container navbar-container">
+            <div></div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <img class="img-responsive" src="img/toggler.png" alt="Menu" width="50" height="50">
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item ms-5 me-5 mt-3">
+                    <li class="nav-item ms-5 me-5 mt-3 d-none d-xl-block">
                         <a class="navbar-brand" href="#">
-                            <img src="img/hiedra_films_icon.png" alt="" width="50" height="49">
-                        </a>                    
+                            <img src="img/hiedra_films_icon.png" alt="Hiedra Films" width="50" height="49">
+                        </a>
                     </li>
-                    <li class="nav-item ms-5 me-5 pt-3 ">
+                    <li class="nav-item ms-5 me-5 mt-3 text-end text-xl-center d-block d-xl-none">
+                        <a class="navbar-brand hiedra-nav-link" href="/">
+                            <i class="bi bi-house-door-fill"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item ms-5 me-5 pt-3 text-end text-xl-center d-block d-xl-none">
+                        <div class="nav-link text-white">
+                            <a class="link-unstyled" href="/eng/home">ENG</a>
+                            |
+                            <a class="link-unstyled" href="#"><strong>ES</strong></a>
+                        </div>
+                    </li>
+                    <li class="nav-item ms-5 me-5 pt-3 text-end text-xl-center">
                         <a class="nav-link hiedra-nav-link" href="/es/somos">SOMOS</a>
                     </li>
-                    <li class="nav-item ms-5 me-5 pt-3">
+                    <li class="nav-item ms-5 me-5 pt-3 text-end text-xl-center">
                         <a class="nav-link hiedra-nav-link" href="/es/equipo">EQUIPO</a>
                     </li>
-                    <li class="nav-item ms-5 me-5 pt-3">
+                    <li class="nav-item ms-5 me-5 pt-3 text-end text-xl-center">
                         <a class="nav-link hiedra-nav-link" href="/es/portafolio">PORTAFOLIO</a>
                     </li>
-                    <li class="nav-item ms-5 me-5 pt-3">
+                    <li class="nav-item ms-5 me-5 pt-3 text-end text-xl-center">
                         <a class="nav-link hiedra-nav-link" href="/es/contacto">CONTACTO</a>
                     </li>
-                    <li class="nav-item ms-5 me-5 pt-3">
-                        <a class="nav-link text-white" href="/es/contacto">ENG | <strong>ES</strong></a>
+                    <li class="nav-item ms-5 me-5 pt-3 text-end text-xl-center d-none d-xl-block">
+                        <div class="nav-link text-white">
+                            <a class="link-unstyled" href="/eng/home">ENG</a>
+                            |
+                            <a class="link-unstyled" href="#"><strong>ES</strong></a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -50,14 +67,14 @@
     </nav>
     <div class="container-fluid">
         <div class="row vh-100 d-flex align-items-center justify-content-center bg-black">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-4 col-6">
                 <img src="img/hiedra_films_logo.png" alt="Hiedra Films" class="img-fluid" width="500" height="500">
             </div>
         </div>
         <div class="row d-flex align-items-center justify-content-center fixed-bottom bg-white">
             <div class="col-lg-3 text-center">
                 <h1>
-                    <i class="bi bi-instagram"></i>
+                    <a class="text-black" href="https://www.instagram.com/hiedrafilms/" target="_blank"><i class="bi bi-instagram"></i></a>
                 </h1>
             </div>
         </div>

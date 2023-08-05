@@ -4,20 +4,50 @@
 }
 
 body {
-    /* background-color: black!important; */
-    font-family: Inter!important;
+    font-family: Inter !important;
 }
 
-.bg-black{
-    background-color: black!important;;
+.bg-black {
+    background-color: black !important;
+    ;
+}
+
+.text-black {
+    color: black !important;
 }
 
 .hiedra-nav-link {
-    color: #ffeb33!important;
+    color: #ffeb33 !important;
     font-size: 1.3rem;
     font-weight: bolder;
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #ffeb33!important;
+    color: #ffeb33 !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+
+.link-unstyled,
+.link-unstyled:link,
+.link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+@media (max-width: 1200px) {
+    .navbar-container {
+        padding: 0!important;
+    }
+    .navbar-collapse {
+        margin-top: 10px;
+        background-color: #817a7a!important;
+    }
 }
