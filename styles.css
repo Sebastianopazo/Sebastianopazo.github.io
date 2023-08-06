@@ -65,7 +65,11 @@ h5 {
 
     .navbar-collapse {
         margin-top: 10px;
-        background-color: #817a7a !important;
+        background-color: black !important;
+    }
+
+    #navbarSupportedContent{
+        border-bottom: solid 1px #ffeb33!important;
     }
 
     .navbar-invisible {
