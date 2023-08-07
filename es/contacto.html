@@ -12,15 +12,25 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <style>
+        .container-fluid {
+            height: calc(100vh - 97px);
+            /* Adjust 56px to the height of your navbar */
+        }
+
+        .row.flex-grow-1 {
+            height: 100%;
+        }
+    </style>
 </head>
 
-<body>
-    <nav class="navbar navbar-dark bg-black navbar-expand-xl fixed-top navbar-invisible">
+<body class="hiedra-bg">
+    <nav class="navbar navbar-dark bg-black navbar-expand-xl">
         <div class="container navbar-container">
             <div></div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <img class="img-responsive" src="../img/toggler.png" alt="Menu" width="50" height="50">
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -52,7 +62,8 @@
                         <a class="nav-link hiedra-nav-link" href="/es/portafolio.html">PORTAFOLIO</a>
                     </li>
                     <li class="nav-item ms-5 me-5 pt-3 text-end text-xl-center">
-                        <a class="nav-link hiedra-nav-link active" aria-current="page" href="/es/contacto.html">CONTACTO</a>
+                        <a class="nav-link hiedra-nav-link active" aria-current="page"
+                            href="/es/contacto.html">CONTACTO</a>
                     </li>
                     <li class="nav-item ms-5 me-5 pt-3 text-end text-xl-center d-none d-xl-block">
                         <div class="nav-link text-white">
@@ -65,8 +76,9 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
-        <div class="row vh-100 d-flex align-items-center justify-content-center hiedra-bg">
+
+    <div class="container-fluid d-flex flex-column">
+        <div class="row flex-grow-1 align-items-center justify-content-center">
             <div class="col-lg-3 col-md-4 text-center">
                 <h1 class="mb-5">CONTACTO</h1>
                 <p style="font-size: 24px;">hiedrafilms.info@gmail.com
@@ -81,7 +93,6 @@
             </div>
         </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>

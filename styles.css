@@ -67,15 +67,6 @@ h5 {
         padding: 0 !important;
     }
 
-    .navbar-collapse {
-        margin-top: 10px;
-        background-color: rgba(0, 0, 0, 0.85);
-    }
-
-    #navbarSupportedContent{
-        border-bottom: solid 1px #ffeb33!important;
-    }
-
     .navbar-invisible {
         background-color: transparent !important;
     }
