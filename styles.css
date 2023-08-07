@@ -77,6 +77,11 @@ h5 {
         width: 350px!important;
         height: 210px!important;
     }
+
+    .portfolio-item {
+        max-width: 350px!important;
+        overflow: hidden;
+    }
 }
 
 
@@ -164,11 +169,11 @@ h5 {
 } */
 
 .overlay p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .overlay h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .portfolio-item{
@@ -181,3 +186,6 @@ h5 {
     object-fit: cover;
 }
 
+.navbar-dark .navbar-toggler:focus{
+    color: black;
+}
